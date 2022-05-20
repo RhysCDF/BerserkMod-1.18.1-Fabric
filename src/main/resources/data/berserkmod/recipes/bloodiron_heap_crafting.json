@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bloodiron_heap",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "berserkmod:raw_bloodiron"
+    }
+  },
+  "result": {
+    "item": "berserkmod:bloodiron_heap"
+  }
+}

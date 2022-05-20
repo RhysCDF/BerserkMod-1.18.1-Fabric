@@ -10,14 +10,15 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.rhysc.berserkmod.BerserkMod;
+import net.rhysc.berserkmod.item.ModItemGroup;
 
 public class ModBlocks {
 
     public static final Block BLOODIRON_ORE = registerBlock("bloodiron_ore",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.BERSERKGROUP);
 
-    public static final Block BLOODIRON_BLOCK = registerBlock("bloodiron_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+    public static final Block BLOODIRON_BLOCK = registerBlock("bloodiron_block_crafting.json",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.BERSERKGROUP);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

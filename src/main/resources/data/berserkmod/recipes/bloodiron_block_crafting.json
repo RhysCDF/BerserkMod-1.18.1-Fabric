@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bloodiron_block",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "berserkmod:bloodiron_ingot"
+    }
+  },
+  "result": {
+    "item": "berserkmod:bloodiron_block"
+  }
+}

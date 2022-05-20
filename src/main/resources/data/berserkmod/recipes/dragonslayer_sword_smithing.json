@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "group": "dragonslayer_sword",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "berserkmod:bloodiron_block"
+  },
+  "result": {
+    "item": "berserkmod:dragonslayer_sword"
+  }
+}

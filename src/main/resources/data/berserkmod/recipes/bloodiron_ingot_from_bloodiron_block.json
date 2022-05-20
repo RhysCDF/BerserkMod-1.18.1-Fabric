@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bloodiron_ingot",
+  "ingredients": [
+    {
+      "item": "berserkmod:bloodiron_block"
+    }
+  ],
+  "result": {
+    "item": "berserkmod:bloodiron_ingot",
+    "count": 9
+  }
+}

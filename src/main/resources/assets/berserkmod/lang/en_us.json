@@ -6,5 +6,7 @@
   "item.berserkmod.bloodiron_ingot": "Bloodiron Ingot",
 
   "block.berserkmod.bloodiron_ore": "Bloodiron Ore",
-  "block.berserkmod.bloodiron_block": "Block of Bloodiron"
+  "block.berserkmod.bloodiron_block": "Block of Bloodiron",
+
+  "itemGroup.berserkmod.berserkgroup": "The Berserk Mod"
 }

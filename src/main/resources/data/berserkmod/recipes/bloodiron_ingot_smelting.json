@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "bloodiron_ingot",
+  "ingredient": {
+    "item": "berserkmod:bloodiron_heap"
+  },
+  "result": "berserkmod:bloodiron_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}
