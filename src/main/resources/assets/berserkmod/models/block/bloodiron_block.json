@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "berserkmod:block/bloodiron_block"
+  }
+}
